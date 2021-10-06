@@ -1,0 +1,8 @@
+-Upload the arduino file to the board
+-In SerialRead.java, change the port and the serial number to match the ones on Arduino program and IDE
+-Run the Java project
+
+*Observations*
+->Every JAVA application listed here was run using APACHE Netbeans-<
+-While testing, it was found that it is not possible to have both the serial monitor and the JAVA application running at the same time
+-It is recommended that after you check on the serial monitor if thar Board is sending the message you close it to the run SerialRead.java  
