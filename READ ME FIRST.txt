@@ -1,4 +1,4 @@
--When Connecting the board to your PC for the first time, it you should automatically install any necessary drivers. If it doesn't, dowload it. https://www.robocore.net/tutoriais/instalando-driver-do-nodemcu
+-When Connecting the board to your PC for the first time, it should automatically install any necessary drivers. If it doesn't, dowload it. https://www.robocore.net/tutoriais/instalando-driver-do-nodemcu
 
 -On the Arduino IDE go to Archive->Preferences and add this URL to download the NodeMCU type boards: http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
