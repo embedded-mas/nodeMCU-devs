@@ -1,0 +1,9 @@
+-When Connecting the board to your PC for the first time, it you should automatically install any necessary drivers. If it doesn't, dowload it. https://www.robocore.net/tutoriais/instalando-driver-do-nodemcu
+
+-On the Arduino IDE go to Archive->Preferences and add this URL to download the NodeMCU type boards: http://arduino.esp8266.com/stable/package_esp8266com_index.json
+
+-Go to Tools->Board->'ESP8266 Boards' and choose the board you are working with. If you are not sure of what board you have, try the 'Generic ESP8266 Module'
+
+-Anytime you upload a program to the board, press and hold the FLASH buttom during the upload sequence
+
+-After the upload is done, press the RESET buttom
