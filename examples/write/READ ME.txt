@@ -1,0 +1,11 @@
+-Upload the arduino file to the board
+-In SerialWrite.java, change the port and the serial number to match the ones on Arduino program and IDE
+-Run the Java project
+-Type in the string that you want to send
+-After SerialWrite.java is done running, go to the Arduino IDE and open the serial monitor. In a few seconds, the message you sent sould appear on it.
+
+*Observations*
+->Every JAVA application listed here was run using APACHE Netbeans-<
+->While testing, it was found that it is not possible to have both the serial monitor and the JAVA application running at the same time
+With that in mind, a minor alteration was made to the original Arduino file.
+The program will now print the message it receaved a few seconds later, giving you time to open the serial monitor after SerialWrite.java is done running, since both can't be done in the same time.  
